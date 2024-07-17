@@ -23,13 +23,13 @@ Sample files for scale factors 0.1 and 0.3 have been provided at [LDBC sample da
 <!-- In this study, the YAGO and LDBC-SNB datasets are a collection of data that comprise node and edge relations. Node relations are designated with the prefix NR and describe the properties of individual nodes, while edge relations are designated with the prefix ER and describe the connections between nodes. -->
 
 ## Schema
-We have created graph schemas specifically for the YAGO and LDBC-SNB datasets that assist in schema-based query optimisation. To enhance user understanding and visualization, we provide graph schemas for YAGO and LDBC-SNB datasets in PDF format at [Schemas](/Schema/Graph_Schema_for_VLDB.pdf).
+We have created graph schemas specifically for the YAGO and LDBC-SNB datasets that assist in schema-based query optimisation. To enhance user understanding and visualization, we provide graph schemas for YAGO and LDBC-SNB datasets in PDF format at [Schemas](/Schema/).
 ### YAGO
 
-YAGO, a knowledge graph, does not come with a graph schema. As a result, we have created a basic graph schema for YAGO that is presented in [Schemas](/Schema/Graph_Schema_for_VLDB.pdf). The YAGO schema is based on the [SHACL semantic constraints for YAGO](https://arxiv.org/abs/2308.11884). The YAGO graph schema, developed as a part of this study, is available in a serializable format at [YAGO Schema](/Schema/Graph_schema_YAGO_Serializable.txt).
+YAGO, a knowledge graph, does not come with a graph schema. As a result, we have created a basic graph schema for YAGO that is presented in [Schemas](/Schema/Graph_Schema_for_VLDB.pdf). The YAGO schema is based on the [SHACL semantic constraints for YAGO](https://arxiv.org/abs/2308.11884). The YAGO graph schema, developed as a part of this study, is available in a serializable format at [YAGO Schema](/Schema/).
 
 ### LDBC-SNB
-The LDBC-SNB dataset comes with a [pre-defined property graph schema](https://doi.org/10.1145/2723372.2742786) that outlines the structure and relationships of the dataset's entities. This schema is an essential aspect of the study and helps to organize and understand the data. The LDBC-SNB graph schema used in this study is available in a serializable format at [LDBC Schema](/Schema/Graph_Schema_LDBC_Serializable.txt).
+The LDBC-SNB dataset comes with a [pre-defined property graph schema](https://doi.org/10.1145/2723372.2742786) that outlines the structure and relationships of the dataset's entities. This schema is an essential aspect of the study and helps to organize and understand the data. The LDBC-SNB graph schema used in this study is available in a serializable format at [LDBC Schema](/Schema/).
 
 
 ## Queries
@@ -37,11 +37,11 @@ Through our experimental analysis, we have investigated different queries with u
 
 
 ### YAGO
-Our research examined 18 queries on the YAGO dataset, all acyclic-shaped recursive graph queries. We have made the YAGO initial and schema-based rewritten queries available in this repository for easy access. You can find them at the following links: [YAGO initial queries](/Queries/UCQT_Initial_Query_YAGO.csv) and [YAGO schema-based rewritten queries](/Queries/Rewritten_YAGO.csv).
+Our research examined 18 queries on the YAGO dataset, all acyclic-shaped recursive graph queries. We have made the YAGO initial and schema-based rewritten queries available in this repository for easy access. You can find them at the following links: [YAGO initial queries](/Queries/) and [YAGO schema-based rewritten queries](/Queries/).
 
 
 ### LDBC-SNB
-We analyzed 30 queries on the LDBC-SNB dataset. Of these 30 queries, 12 were non-recursive, while 18 were recursive. Additionally, we found that 21 queries were acyclic, while the remaining 9 queries had cyclic shapes. We have provided the initial and schema-based rewritten queries of the LDBC-SNB dataset in this repository for more details. You can access these files by visiting the following links: [LDBC-SNB initial queries](/Queries/UCQT_Initial_Query_LDBC.csv) and [LDBC-SNB schema-based rewritten queries](/Queries/Rewritten_LDBC.csv).
+We analyzed 30 queries on the LDBC-SNB dataset. Of these 30 queries, 12 were non-recursive, while 18 were recursive. We have provided the initial and schema-based rewritten queries of the LDBC-SNB dataset in this repository for more details. You can access these files by visiting the following links: [LDBC-SNB initial queries](/Queries/) and [LDBC-SNB schema-based rewritten queries](/Queries/).
 
 
 
