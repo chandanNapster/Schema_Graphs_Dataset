@@ -33,11 +33,11 @@ The LDBC-SNB dataset comes with a [pre-defined property graph schema](https://do
 
 
 ## Queries
-Through our experimental analysis, we have investigated different queries with unique characteristics. Our focus has been on two primary types of queries: acyclic and cyclic-shaped. Queries can be further classified as either recursive or non-recursive. Recursive queries use the Kleene plus operation, allowing graph pattern repetition. On the other hand, non-recursive queries do not use the Kleene plus operation and, therefore, cannot repeat graph patterns.
+Through our experimental analysis, we have investigated different queries with unique characteristics. Queries are classified as either recursive or non-recursive. Recursive queries use the Kleene plus operation, allowing graph pattern repetition. On the other hand, non-recursive queries do not use the Kleene plus operation and, therefore, cannot repeat graph patterns.
 
 
 ### YAGO
-Our research examined 18 queries on the YAGO dataset, all acyclic-shaped recursive graph queries. We have made the YAGO initial and schema-based rewritten queries available in this repository for easy access. You can find them at the following links: [YAGO initial queries](/Queries/) and [YAGO schema-based rewritten queries](/Queries/).
+Our research examined 18 queries on the YAGO dataset, all recursive graph queries. We have made the YAGO initial and schema-based rewritten queries available in this repository for easy access. You can find them at the following links: [YAGO initial queries](/Queries/) and [YAGO schema-based rewritten queries](/Queries/).
 
 
 ### LDBC-SNB
