@@ -37,11 +37,11 @@ Through our experimental analysis, we have investigated different queries with u
 
 
 ### YAGO
-Our research examined 18 queries on the YAGO dataset, all acyclic-shaped recursive graph queries. We have made the YAGO initial and schema-based rewritten queries available in this repository for easy access. You can find them at the following links: [YAGO initial queries](/Queries/UCQT_Initial_Query_YAGO.csv) and [YAGO schema-based rewritten queries](/Queries/UCQT_Schema_Based_Rewritten_YAGO.csv).
+Our research examined 18 queries on the YAGO dataset, all acyclic-shaped recursive graph queries. We have made the YAGO initial and schema-based rewritten queries available in this repository for easy access. You can find them at the following links: [YAGO initial queries](/Queries/UCQT_Initial_Query_YAGO.csv) and [YAGO schema-based rewritten queries](/Queries/Rewritten_YAGO.csv).
 
 
 ### LDBC-SNB
-We analyzed 30 queries on the LDBC-SNB dataset. Of these 30 queries, 12 were non-recursive, while 18 were recursive. Additionally, we found that 21 queries were acyclic, while the remaining 9 queries had cyclic shapes. We have provided the initial and schema-based rewritten queries of the LDBC-SNB dataset in this repository for more details. You can access these files by visiting the following links: [LDBC-SNB initial queries](/Queries/UCQT_Initial_Query_LDBC.csv) and [LDBC-SNB schema-based rewritten queries](/Queries/UCQT_Schema_Based_Rewritten_LDBC.csv).
+We analyzed 30 queries on the LDBC-SNB dataset. Of these 30 queries, 12 were non-recursive, while 18 were recursive. Additionally, we found that 21 queries were acyclic, while the remaining 9 queries had cyclic shapes. We have provided the initial and schema-based rewritten queries of the LDBC-SNB dataset in this repository for more details. You can access these files by visiting the following links: [LDBC-SNB initial queries](/Queries/UCQT_Initial_Query_LDBC.csv) and [LDBC-SNB schema-based rewritten queries](/Queries/Rewritten_LDBC.csv).
 
 
 
