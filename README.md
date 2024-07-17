@@ -19,7 +19,7 @@ We consider [YAGO2s](https://yago-knowledge.org/downloads/yago-2s) a real knowle
 ### LDBC-SNB
  The Social Network Benchmark (SNB) interactive workload from the Linked Data Benchmark Council [(LDBC)](https://ldbcouncil.org) is a synthetic reference benchmark for property graphs. Specifically, we used the LDBC-SNB dataset in CSV format provided by [LDBC-SNB](https://repository.surfsara.nl/datasets/cwi/snb). We consider six scale factors of LDBC-SNB, particularly scale factors 0.1, 0.3, 1, 3, 10 and 30. 
 
-
+Sample files for scale factors 0.1 and 0.3 have been provided. 
 <!-- In this study, the YAGO and LDBC-SNB datasets are a collection of data that comprise node and edge relations. Node relations are designated with the prefix NR and describe the properties of individual nodes, while edge relations are designated with the prefix ER and describe the connections between nodes. -->
 
 ## Schema
