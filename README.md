@@ -1,26 +1,26 @@
 # Supplementary Material for Schema-based query optimisation for Graph Databases
 
-The contents of this repository are dedicated to providing detailed information regarding the schemas, and queries utilized to carry out the experiments for the research paper titled "Schema-based query optimization for graph databases". By exploring this repository, one can understand the graph structures, and queries employed in this research.
+The contents of this repository are dedicated to providing detailed information regarding the datasets, schemas, and queries utilized to carry out the experiments for the research paper titled "Schema-based query optimization for graph databases". By exploring this repository, one can understand the datasets, graph structures, and queries employed in this research.
 
 ## Table of content
 
-<!-- * [Dataset](#dataset) -->
+* [Dataset](#dataset)
 * [Schema](#schema)
 * [Queries](#queries)
 
 
 
-<!-- ## Dataset 
+## Dataset 
 We consider datasets of different nature:
 
 ### YAGO
-We consider [YAGO2s](https://yago-knowledge.org/downloads/yago-2s) a real knowledge graph. We use the cleaned version of the real-world dataset YAGO2s in which only nodes with unique identifiers are present. We split the set of RDF triples into multiple edge relations (tables), one for each predicate name. We create a node relation (table) for each node class. The dataset can be found as CSV files at [YAGO dataset](/Dataset/YAGO.tgz).
+We consider [YAGO2s](https://yago-knowledge.org/downloads/yago-2s) a real knowledge graph. We use the cleaned version of the real-world dataset YAGO2s in which only nodes with unique identifiers are present. We split the set of RDF triples into multiple edge relations (tables), one for each predicate name. We create a node relation (table) for each node class.
 
 ### LDBC-SNB
- The Social Network Benchmark (SNB) interactive workload from the Linked Data Benchmark Council [(LDBC)](https://ldbcouncil.org) is a synthetic reference benchmark for property graphs. Specifically, we used the LDBC-SNB dataset in CSV format provided by [LDBC-SNB](https://repository.surfsara.nl/datasets/cwi/snb). We consider five scale factors of LDBC-SNB, particularly scale factors 0.1, 0.3, 1, 3 and 10. The dataset can be found as CSV files at [LDBC dataset](/Dataset/LDBC/). 
+ The Social Network Benchmark (SNB) interactive workload from the Linked Data Benchmark Council [(LDBC)](https://ldbcouncil.org) is a synthetic reference benchmark for property graphs. Specifically, we used the LDBC-SNB dataset in CSV format provided by [LDBC-SNB](https://repository.surfsara.nl/datasets/cwi/snb). We consider six scale factors of LDBC-SNB, particularly scale factors 0.1, 0.3, 1, 3, 10 and 30. 
 
 
-In this study, the YAGO and LDBC-SNB datasets are a collection of data that comprise node and edge relations. Node relations are designated with the prefix NR and describe the properties of individual nodes, while edge relations are designated with the prefix ER and describe the connections between nodes. -->
+<!-- In this study, the YAGO and LDBC-SNB datasets are a collection of data that comprise node and edge relations. Node relations are designated with the prefix NR and describe the properties of individual nodes, while edge relations are designated with the prefix ER and describe the connections between nodes. -->
 
 ## Schema
 We have created graph schemas specifically for the YAGO and LDBC-SNB datasets that assist in schema-based query optimisation. To enhance user understanding and visualization, we provide graph schemas for YAGO and LDBC-SNB datasets in PDF format at [Schemas](/Schema/Graph_Schema_for_VLDB.pdf).
