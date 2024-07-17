@@ -1,0 +1,60 @@
+IC1 , (ERknows|(ERknows/ERknows)|(ERknows/ERknows/ERknows))/(ERisLocatedIn|(ERworkAt | ERstudyAt) / ERisLocatedIn)
+____________________________________________________________
+IC2 , (-ERknows|ERknows)/-ERhasCreator
+____________________________________________________________
+IC6 , (ERknows|(ERknows/ERknows))/(-ERhasCreator[ERhasTag])[ERhasTag]
+____________________________________________________________
+IC7 , (-ERhasCreator/-ERlikes)|(-ERhasCreator/-ERlikes)^ERknows
+____________________________________________________________
+IC8 , -ERhasCreator/-ERreplyOf/ERhasCreator
+____________________________________________________________
+IC9 , (ERknows|(ERknows/ERknows))/-ERhasCreator
+____________________________________________________________
+IC11 , (ERknows|(ERknows/ERknows))/ERworkAt/ERisLocatedIn
+____________________________________________________________
+IC12 , ERknows/-ERhasCreator/ERreplyOf/ERhasTag/ERhasType/ERisSubClassOf+
+____________________________________________________________
+IC12 , ERknows+
+____________________________________________________________
+IC14 , (ERknows^(-ERhasCreator/ERreplyOf/ERhasCreator))+
+____________________________________________________________
+Y1 , ERknows+/ERstudyAt/ERisLocatedIn+/ERisPartOf+
+____________________________________________________________
+Y2 , ERlikes/ERhasCreator/ERknows+/ERisLocatedIn+
+____________________________________________________________
+Y3 , ERlikes/ERreplyOf+/ERisLocatedIn+/ERisPartOf+
+____________________________________________________________
+Y4 , ERhasMember/(ERstudyAt|ERworkAt)/ERisLocatedIn+/ERisPartOf+
+____________________________________________________________
+Y5 , -ERhasMember/([ERcontainerOf]ERhasTag)/ERhasType/ERisSubClassOf+
+____________________________________________________________
+Y6 , ERreplyOf+/ERisLocatedIn+/ERisPartOf+
+____________________________________________________________
+Y7 , ERhasModerator/ERhasInterest/ERhasType/ERisSubClassOf+
+____________________________________________________________
+Y8 , ([ERcontainerOf/ERhasCreator]ERhasModerator)/ERisLocatedIn/ERisPartOf+
+____________________________________________________________
+IS2 , -ERhasCreator/ERreplyOf+/ERhasCreator
+____________________________________________________________
+IS6 , ERreplyOf+/-ERcontainerOf/ERhasModerator
+____________________________________________________________
+IS7 , (-ERhasCreator/ERreplyOf/ERhasCreator)|((-ERhasCreator/ERreplyOf/ERhasCreator)^ERknows)
+____________________________________________________________
+BI11 , (([ERisLocatedIn/ERisPartOf]ERknows)[ERisLocatedIn/ERisPartOf])^(ERknows/([ERisLocatedIn/ERisPartOf]ERknows))
+____________________________________________________________
+BI10 , (ERknows+[ERisLocatedIn/ERisPartOf])/(-ERhasCreator[ERhasTag])/ERhasTag/ERhasType   
+____________________________________________________________
+BI3 , -ERisPartOf/-ERisLocatedIn/-ERhasModerator/ERcontainerOf/-ERreplyOf+/ERhasTag/ERhasType
+____________________________________________________________
+BI9 , ERreplyOf+/ERhasCreator
+____________________________________________________________
+BI20 , (ERknows^(ERstudyAt/-ERstudyAt))+
+____________________________________________________________
+LSQB1 , -ERisPartOf/-ERisLocatedIn/-ERhasMember/ERcontainerOf/-ERreplyOf+/ERhasTag/ERhasType
+____________________________________________________________
+LSQb4 , ((ERlikes[ERhasTag])[-ERreplyOf])/ERhasCreator
+____________________________________________________________
+LSQB5 , -ERhasTag/-ERreplyOf/ERhasTag
+____________________________________________________________
+LSQB6 , ERknows/ERknows/ERhasInterest
+

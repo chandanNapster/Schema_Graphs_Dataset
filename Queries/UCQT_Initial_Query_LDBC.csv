@@ -1,0 +1,31 @@
+LDBC Query Label;UCQT
+IC1;(ERknows|(ERknows/ERknows)|(ERknows/ERknows/ERknows))/(ERisLocatedIn|(ERworkAt | ERstudyAt) / ERisLocatedIn)
+IC2;(-ERknows|ERknows)/-ERhasCreator
+IC6;(ERknows|(ERknows/ERknows))/(-ERhasCreator[ERhasTag])[ERhasTag]
+IC7;(-ERhasCreator/-ERlikes)|(-ERhasCreator/-ERlikes)^ERknows
+IC8;-ERhasCreator/-ERreplyOf/ERhasCreator
+IC9;(ERknows|(ERknows/ERknows))/-ERhasCreator
+IC11;(ERknows|(ERknows/ERknows))/ERworkAt/ERisLocatedIn
+IC12;ERknows/-ERhasCreator/ERreplyOf/ERhasTag/ERhasType/ERisSubClassOf+
+IC13;ERknows+
+IC14;(ERknows^(-ERhasCreator/ERreplyOf/ERhasCreator))+
+Y1;ERknows+/ERstudyAt/ERisLocatedIn+/ERisPartOf+
+Y2;ERlikes/ERhasCreator/ERknows+/ERisLocatedIn+
+Y3;ERlikes/ERreplyOf+/ERisLocatedIn+/ERisPartOf+
+Y4;ERhasMember/(ERstudyAt|ERworkAt)/ERisLocatedIn+/ERisPartOf+
+Y5;-ERhasMember/([ERcontainerOf]ERhasTag)/ERhasType/ERisSubClassOf+
+Y6;ERreplyOf+/ERisLocatedIn+/ERisPartOf+
+Y7;ERhasModerator/ERhasInterest/ERhasType/ERisSubClassOf+
+Y8;([ERcontainerOf/ERhasCreator]ERhasModerator)/ERisLocatedIn/ERisPartOf+
+IS2;-ERhasCreator/ERreplyOf+/ERhasCreator
+IS6;ERreplyOf+/-ERcontainerOf/ERhasModerator
+IS7;(-ERhasCreator/ERreplyOf/ERhasCreator)|((-ERhasCreator/ERreplyOf/ERhasCreator)^ERknows)
+BI11;(([ERisLocatedIn/ERisPartOf]ERknows)[ERisLocatedIn/ERisPartOf])^(ERknows/([ERisLocatedIn/ERisPartOf]ERknows))
+BI10;(ERknows+[ERisLocatedIn/ERisPartOf])/(-ERhasCreator[ERhasTag])/ERhasTag/ERhasType
+BI3;-ERisPartOf/-ERisLocatedIn/-ERhasModerator/ERcontainerOf/-ERreplyOf+/ERhasTag/ERhasType
+BI9;ERreplyOf+/ERhasCreator
+BI20;(ERknows^(ERstudyAt/-ERstudyAt))+
+LSQB1;-ERisPartOf/-ERisLocatedIn/-ERhasMember/ERcontainerOf/-ERreplyOf+/ERhasTag/ERhasType
+LSQB4;((ERlikes[ERhasTag])[-ERreplyOf])/ERhasCreator
+LSQB5;-ERhasTag/-ERreplyOf/ERhasTag
+LSQB6;ERknows/ERknows/ERhasInterest
