@@ -1,16 +1,16 @@
 # Supplementary Material for Schema-based query optimisation for Graph Databases
 
-The contents of this repository are dedicated to providing detailed information regarding the dataset, schemas, and queries utilized to carry out the experiments for the research paper titled "Schema-based query optimization for graph databases". By exploring this repository, one can understand the datasets, graph structures, and queries employed in this research.
+The contents of this repository are dedicated to providing detailed information regarding the schemas, and queries utilized to carry out the experiments for the research paper titled "Schema-based query optimization for graph databases". By exploring this repository, one can understand the graph structures, and queries employed in this research.
 
 ## Table of content
 
-* [Dataset](#dataset)
+<!-- * [Dataset](#dataset) -->
 * [Schema](#schema)
 * [Queries](#queries)
 
 
 
-## Dataset 
+<!-- ## Dataset 
 We consider datasets of different nature:
 
 ### YAGO
@@ -20,7 +20,7 @@ We consider [YAGO2s](https://yago-knowledge.org/downloads/yago-2s) a real knowle
  The Social Network Benchmark (SNB) interactive workload from the Linked Data Benchmark Council [(LDBC)](https://ldbcouncil.org) is a synthetic reference benchmark for property graphs. Specifically, we used the LDBC-SNB dataset in CSV format provided by [LDBC-SNB](https://repository.surfsara.nl/datasets/cwi/snb). We consider five scale factors of LDBC-SNB, particularly scale factors 0.1, 0.3, 1, 3 and 10. The dataset can be found as CSV files at [LDBC dataset](/Dataset/LDBC/). 
 
 
-In this study, the YAGO and LDBC-SNB datasets are a collection of data that comprise node and edge relations. Node relations are designated with the prefix NR and describe the properties of individual nodes, while edge relations are designated with the prefix ER and describe the connections between nodes.
+In this study, the YAGO and LDBC-SNB datasets are a collection of data that comprise node and edge relations. Node relations are designated with the prefix NR and describe the properties of individual nodes, while edge relations are designated with the prefix ER and describe the connections between nodes. -->
 
 ## Schema
 We have created graph schemas specifically for the YAGO and LDBC-SNB datasets that assist in schema-based query optimisation. To enhance user understanding and visualization, we provide graph schemas for YAGO and LDBC-SNB datasets in PDF format at [Schemas](/Schema/Graph_Schema_for_VLDB.pdf).
@@ -131,14 +131,14 @@ For people who want to make changes to your project, it's helpful to have some d
 
 You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser. -->
 
-## Authors and acknowledgment
+<!-- ## Authors and acknowledgment
 * [Chandan Sharma] chandan.sharma@inria.fr
 * [Pierre Genevès] pierre.geneves@inria.fr
 * [Nils Gesbert] nils.gesbert@inria.fr
 * [Nabil Layaida] nabil.layaida@inria.fr
 
 ## Preprint
-You can find the preprint version of this research paper on the INRIA HAL SCIENCE web portal by following this link: [INRIA HAL research paper link](https://inria.hal.science/hal-04485125).
+You can find the preprint version of this research paper on the INRIA HAL SCIENCE web portal by following this link: [INRIA HAL research paper link](https://inria.hal.science/hal-04485125). -->
 
 <!-- ## License
 For open source projects, say how it is licensed.
