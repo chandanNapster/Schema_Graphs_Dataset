@@ -45,7 +45,7 @@ Query;Run1;Run2;Run3;Run4;Scale Factor;Approach;Shape;Type;Considered
 14;2680.0 ;3888.0 ;2741.0 ;3115.0 ;0.1;Non Schema;Acyclic;GN;Y
 15;6963.0 ;9185.0 ;10484.0 ;8482.0 ;0.1;Non Schema;Acyclic;GN;N
 16;4556.0 ;2627.0 ;3458.0 ;4932.0 ;0.1;Non Schema;Acyclic;GN;Y
-17;260.0 ;305.0 ;395.0 ;300.0 ;0.1;Non Schema;Acyclic;GN;Y
+17;260.0 ;315.0 ;289.0 ;284.0 ;0.1;Non Schema;Acyclic;GN;Y
 18;147.0 ;211.0 ;259.0 ;165.0 ;0.1;Non Schema;Acyclic;GN;N
 19;735.0 ;793.0  ;893.0  ;807.0 ;0.1;Non Schema;Cyclic;GN;N
 20;576.0 ;565.0 ;635.0 ;652.0 ;0.1;Non Schema;Acyclic;GN;Y
@@ -58,7 +58,7 @@ Query;Run1;Run2;Run3;Run4;Scale Factor;Approach;Shape;Type;Considered
 27;2594.0;3104.0 ;2758.0 ;3071.0  ;0.1;Non Schema;Acyclic;GN;Y
 28;65.0 ;95.0  ;92.0  ;75.0  ;0.1;Non Schema;Acyclic;GPM;N
 29;517.0 ;651.0   ;592.0   ;613.0 ;0.1;Non Schema;Cyclic;GPM;N
-30;4322.0;2888.0;2594.0;2551.0;0.1;Non Schema;Acyclic;GPM;N
+30;4322.0;2643.0;2342.0;4494.0;0.1;Non Schema;Acyclic;GPM;N
 1;17838.0   ;16747.0  ;16613.0  ;17092.0   ;0.3;Schema;Acyclic;GPM;N
 2;0.0   ;0.0   ;0.0   ;0.0 ;0.3;Schema;Acyclic;GPM;N
 3;0.0    ;0.0     ;0.0     ;0.0    ;0.3;Schema;Acyclic;GPM;N
@@ -105,7 +105,7 @@ Query;Run1;Run2;Run3;Run4;Scale Factor;Approach;Shape;Type;Considered
 14;8652.0 ;6730.0 ;6680.0 ;8763.0 ;0.3;Non Schema;Acyclic;GN;Y
 15;60267.0 ;60902.0 ;66505.0 ;64257.0 ;0.3;Non Schema;Acyclic;GN;N
 16;16828.0  ;7986.0   ;7959.0   ;15691.0 ;0.3;Non Schema;Acyclic;GN;Y
-17;830.0 ;824.0 ;793.0 ;892.0 ;0.3;Non Schema;Acyclic;GN;Y
+17;830.0 ;857.0 ;789.0 ;771.0 ;0.3;Non Schema;Acyclic;GN;Y
 18;934.0 ;451.0 ;469.0 ;452.0 ;0.3;Non Schema;Acyclic;GN;N
 19;7298.0 ;2279.0  ;2385.0  ;3289.0 ;0.3;Non Schema;Cyclic;GN;N
 20;4738.0 ;1715.0 ;1762.0  ;2765.0 ;0.3;Non Schema;Acyclic;GN;Y
@@ -118,7 +118,7 @@ Query;Run1;Run2;Run3;Run4;Scale Factor;Approach;Shape;Type;Considered
 27;26225.0 ;15694.0 ;12101.0 ;16559.0 ;0.3;Non Schema;Acyclic;GN;Y
 28;459.0 ;390.0 ;297.0 ;376.0 ;0.3;Non Schema;Acyclic;GPM;N
 29;2764.0 ;2484.0 ;1817.0 ;2306.0 ;0.3;Non Schema;Cyclic;GPM;N
-30;13731.0;18421.0;12858.0;14398.0;0.3;Non Schema;Acyclic;GPM;N
+30;13731.0;13172.0;10735.0;11380.0;0.3;Non Schema;Acyclic;GPM;N
 1;210314.0  ;198853.0  ;176489.0  ;179551.0;1;Schema;Acyclic;GPM;N
 2;0.0   ;0.0   ;0.0   ;0.0   ;1;Schema;Acyclic;GPM;N
 3;0.0   ;0.0  ;0.0  ;0.0  ;1;Schema;Acyclic;GPM;N
@@ -165,7 +165,7 @@ Query;Run1;Run2;Run3;Run4;Scale Factor;Approach;Shape;Type;Considered
 14;39400.0 ;33114.0 ;29963.0 ;46159.0 ;1;Non Schema;Acyclic;GN;Y
 15;331949.0 ;382995.0 ;364696.0 ;385172.0 ;1;Non Schema;Acyclic;GN;N
 16;60053.0 ;36258.0 ;35139.0 ;65697.0 ;1;Non Schema;Acyclic;GN;Y
-17;2757.0 ;2881.0 ;2721.0 ;2780.0 ;1;Non Schema;Acyclic;GN;Y
+17;2757.0 ;2909.0 ;2636.0 ;2377.0 ;1;Non Schema;Acyclic;GN;Y
 18;1854.0 ;3186.0 ;2572.0 ;2019.0 ;1;Non Schema;Acyclic;GN;N
 19;13714.0 ;12093.0 ;11351.0 ;14760.0 ;1;Non Schema;Cyclic;GN;N
 20;11165.0 ;8722.0 ;8286.0 ;12123.0 ;1;Non Schema;Acyclic;GN;Y
@@ -178,7 +178,7 @@ Query;Run1;Run2;Run3;Run4;Scale Factor;Approach;Shape;Type;Considered
 27;1800000.0  ;1800000.0 ;1800000.0 ;1800000.0;1;Non Schema;Acyclic;GN;Y
 28;2917.0 ;3292.0 ;3326.0 ;3077.0 ;1;Non Schema;Acyclic;GPM;N
 29;7146.0 ;7716.0  ;7640.0  ;7676.0 ;1;Non Schema;Cyclic;GPM;N
-30;75195.0;78100.0;82470.0;83375.0;1;Non Schema;Acyclic;GPM;N
+30;75195.0;89811.0;88601.0;84118.0;1;Non Schema;Acyclic;GPM;N
 1;0.0    ;0.0    ;0.0    ;0.0    ;3;Schema;Acyclic;GPM;N
 2;0.0   ;0.0   ;0.0   ;0.0   ;3;Schema;Acyclic;GPM;N
 3;0.0   ;0.0   ;0.0   ;0.0   ;3;Schema;Acyclic;GPM;N
@@ -225,7 +225,7 @@ Query;Run1;Run2;Run3;Run4;Scale Factor;Approach;Shape;Type;Considered
 14;126198.0  ;89022.0 ;88049.0 ;136903.0 ;3;Non Schema;Acyclic;GN;Y
 15;0.0    ;0.0   ;0.0   ;0.0   ;3;Non Schema;Acyclic;GN;N
 16;214776.0 ;128578.0 ;118669.0 ;209882.0 ;3;Non Schema;Acyclic;GN;Y
-17;7103.0 ;12695.0 ;8229.0   ;11267.0 ;3;Non Schema;Acyclic;GN;Y
+17;7103.0 ;7568.0   ;5983.0   ;7140.0  ;3;Non Schema;Acyclic;GN;Y
 18;5369.0 ;12749.0 ;8232.0 ;5080.0 ;3;Non Schema;Acyclic;GN;N
 19;52090.0 ;49788.0 ;42215.0 ;51656.0 ;3;Non Schema;Cyclic;GN;N
 20;44437.0 ;34023.0 ;30129.0 ;46694.0 ;3;Non Schema;Acyclic;GN;Y
@@ -285,7 +285,7 @@ Query;Run1;Run2;Run3;Run4;Scale Factor;Approach;Shape;Type;Considered
 14;511149.0  ;522687.0  ;430618.0  ;522687.0   ;10;Non Schema;Acyclic;GN;Y
 15;0.0   ;0.0   ;0.0   ;0.0  ;10;Non Schema;Acyclic;GN;N
 16;1800000.0  ;1800000.0  ;1800000.0  ;1800000.0   ;10;Non Schema;Acyclic;GN;Y
-17;18484.0 ;21505.0 ;15047.0 ;21505.0 ;10;Non Schema;Acyclic;GN;Y
+17;18484.0 ;18158.0 ;17027.0 ; 18121.0 ;10;Non Schema;Acyclic;GN;Y
 18;15245.0 ;16498.0 ;11634.0 ;16498.0 ;10;Non Schema;Acyclic;GN;N
 19;172564.0 ;200239.0 ;142670.0 ;200239.0 ;10;Non Schema;Cyclic;GN;N
 20;162058.0 ;182628.0  ;150203.0 ;182628.0 ;10;Non Schema;Acyclic;GN;Y
@@ -293,7 +293,7 @@ Query;Run1;Run2;Run3;Run4;Scale Factor;Approach;Shape;Type;Considered
 22;38166.0   ;38159.0   ;33921.0    ; 35841.0  ;10;Non Schema;Cyclic;GPM;N
 23;0.0   ;0.0  ;0.0  ;0.0 ;10;Non Schema;Acyclic;GN;N
 24;189000.0 ;220073.0 ;171300.0 ;220073.0 ;10;Non Schema;Acyclic;GN;Y
-25;200521.0 ;227932.0 ;158617.0  ;194719.0  ;10;Non Schema;Acyclic;GN;Y
+25;210419.0 ;227932.0 ;158617.0  ;194719.0  ;10;Non Schema;Acyclic;GN;Y
 26;9908.0   ;10172.0   ;8676.0   ; 9340.0    ;10;Non Schema;Cyclic;GN;N
 27;0.0     ;0.0    ;0.0    ;0.0  ;10;Non Schema;Acyclic;GN;Y
 28;138061.0 ;162097.0 ;132189.0 ;162097.0 ;10;Non Schema;Acyclic;GPM;N
@@ -345,7 +345,7 @@ Query;Run1;Run2;Run3;Run4;Scale Factor;Approach;Shape;Type;Considered
 14;1800000.0    ;1800000.0   ;1800000.0   ;1800000.0   ;30;Non Schema;Acyclic;GN;Y
 15;0.0     ;0.0     ;0.0     ;0.0     ;30;Non Schema;Acyclic;GN;N
 16;0.0   ;0.0     ;0.0     ;0.0     ;30;Non Schema;Acyclic;GN;Y
-17;40260.0  ;63394.0 ;34720.0 ;39030.0 ;30;Non Schema;Acyclic;GN;Y
+17;40260.0  ;39475.0 ;30779.0 ;37581.0 ;30;Non Schema;Acyclic;GN;Y
 18;46965.0 ;59813.0 ;61455.0 ;41596.0 ;30;Non Schema;Acyclic;GN;N
 19;736761.0 ;656281.0 ;663405.0 ;597014.0 ;30;Non Schema;Cyclic;GN;N
 20;1800000.0  ;1800000.0 ;1800000.0 ;1800000.0  ;30;Non Schema;Acyclic;GN;Y
